@@ -16,5 +16,8 @@ runs/
 __pycache__/
 *.pyc
 
+# format
+*.jpg
+
 # misc
 .DS_Store
