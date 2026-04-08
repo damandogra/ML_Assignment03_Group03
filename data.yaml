@@ -3,8 +3,5 @@ train: train/images
 val: validate/images
 
 names:
-  0: bulky_waste
-  1: garbage_bag
-  2: cardboard
-  3: litter
-  4: other
+  0: clean
+  1: waste
