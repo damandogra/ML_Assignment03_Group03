@@ -1,7 +1,0 @@
-path: .
-train: train
-val: val
-
-names:
-  0: no_waste
-  1: waste
