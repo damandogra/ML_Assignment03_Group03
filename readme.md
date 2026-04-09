@@ -58,7 +58,7 @@ test/labels/
 ### 1. Evaluate Model
 
 ```bash
-python run_pipeline.py
+python src/run_pipeline.py
 ```
 
 - Checks dataset structure
@@ -70,7 +70,7 @@ python run_pipeline.py
 ### 2. Generate Top 100 Predictions
 
 ```bash
-python predict_top100.py
+python src/predict_top100.py
 ```
 
 - Ranks test images using confidence (conf=0.001)
@@ -84,7 +84,7 @@ python predict_top100.py
 ### 3. Compute P@100
 
 ```bash
-python leaderboard.py
+python src/leaderboard.py
 ```
 
 - Compares Top 100 with test labels

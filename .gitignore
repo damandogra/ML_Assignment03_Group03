@@ -3,13 +3,12 @@ venv/
 .env/
 
 # ===== DATA (NOT INCLUDED IN REPO) =====
-train/images
-val/images
-test/images
-
-train/labels/
-val/labels/
-test/labels/
+src/train/images/
+src/val/images/
+src/test/images/
+src/train/labels/
+src/val/labels/
+src/test/labels/
 
 # ===== YOLO OUTPUTS =====
 runs/
