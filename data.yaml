@@ -1,7 +1,0 @@
-path: dataset
-train: train/images
-val: validate/images
-
-names:
-  0: clean
-  1: waste
