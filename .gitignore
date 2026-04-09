@@ -1,24 +1,28 @@
-# environments
+# ===== ENV =====
 venv/
 .env/
 
-# data
-images/
-datasets/
+# ===== DATA (NOT INCLUDED IN REPO) =====
+train/
+val/
+test/
 
-# outputs
+train/labels/
+val/labels/
+test/labels/
+
+# ===== YOLO OUTPUTS =====
 runs/
+top100_output/
+
+# ===== MODELS =====
 *.pt
 *.pth
 
-# cache
+# ===== CACHE =====
 *.cache
 __pycache__/
 *.pyc
 
-# format
-*.jpg
-
-# misc
+# ===== SYSTEM =====
 .DS_Store
-*.txt
