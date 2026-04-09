@@ -3,9 +3,9 @@ venv/
 .env/
 
 # ===== DATA (NOT INCLUDED IN REPO) =====
-train/
-val/
-test/
+train/images
+val/images
+test/images
 
 train/labels/
 val/labels/
