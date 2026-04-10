@@ -60,25 +60,25 @@ def main():
     print(f"Test labels:  {count_files(required['test labels'], {'.txt'})}")
 
     # # ===== LOAD YOLO26 MODEL =====
-    # model = YOLO("yolo26n.pt")
+    model = YOLO("yolo26n.pt")
 
-    # # ===== TRAIN MODEL =====
-    # print("\n===== TRAINING =====")
-    # model.train(
-    #     data=str(yaml_path),
-    #     epochs=100,
-    #     patience=20,
-    #     imgsz=512,
-    #     batch=8,
-    #     workers=0,
-    #     device=gpu_device,
-    #     cos_lr=True,
-    #     project="runs/detect",
-    #     name="yolo26_5classes",
-    #     exist_ok=True,
-    #     pretrained=True,
-    #     plots=True
-    # )
+    # ===== TRAIN MODEL =====
+    print("\n===== TRAINING =====")
+    model.train(
+        data=str(yaml_path),
+        epochs=100,
+        patience=20,
+        imgsz=512,
+        batch=8,
+        workers=0,
+        device=gpu_device,
+        cos_lr=True,
+        project="runs/detect",
+        name="yolo26_5classes",
+        exist_ok=True,
+        pretrained=True,
+        plots=True
+    )
 
     # ===== LOAD BEST MODEL =====
     best_model_path = (
