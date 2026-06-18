@@ -1,7 +1,7 @@
 # Waste Detection in the Built Environment
+A YOLO-based pipeline for waste detection in street-view images, including model evaluation, Top-100 image ranking, and Precision@100 (P@100) scoring.
 
-This repository contains a YOLO-based pipeline for waste detection in street-view images, including model evaluation, Top-100 image ranking, and Precision@100 (P@100) scoring.
-
+<img width="1697" height="846" alt="image" src="https://github.com/user-attachments/assets/a6cfdabd-e609-4222-afaf-7f549ce627bd" />
 ---
 
 ## Repository Structure
